@@ -3,6 +3,19 @@ import re                   # Para expresiones regulares
 from texttable import Texttable
 
 
+
+
+class pruebas_rendimiento:
+
+    print("Esto es una prueba")
+    print("Esto es otra prueba")
+    print("ajaaaaaa")
+
+
+
+
+
+
 class ComponenteLexico:
     
     tipo : TipoComponente
