@@ -4,12 +4,11 @@ from texttable import Texttable
 
 
 
-<<<<<<< HEAD
-class Comics():
-    Superman
-    Batman
-    El hombre araña
-    iron man
+class OnePiece():
+    Luffy
+    Zoro
+    Nami
+    Sanji
 =======
 class Animalitos():
     spider
