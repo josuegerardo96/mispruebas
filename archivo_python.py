@@ -4,6 +4,14 @@ from texttable import Texttable
 
 
 
+class Animalitos():
+    spider
+    bat
+    goku
+    naruto
+
+
+
 
 
 class TipoComponente(Enum):
