@@ -4,11 +4,19 @@ from texttable import Texttable
 
 
 
+<<<<<<< HEAD
 class Comics():
     Superman
     Batman
     El hombre araña
     iron man
+=======
+class Animalitos():
+    spider
+    bat
+    goku
+    naruto
+>>>>>>> a8d4e10e03ed3caa383374d7d2dde86ca866bd6f
 
 
 
