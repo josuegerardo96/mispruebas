@@ -5,12 +5,6 @@ from texttable import Texttable
 
 
 
-class pruebas_rendimiento:
-
-    print("Esto es una prueba")
-    print("Esto es otra prueba")
-    print("ajaaaaaa")
-
 
 class TipoComponente(Enum):
     COMENTARIO      = auto()
@@ -25,14 +19,6 @@ class TipoComponente(Enum):
     AUTOR           = auto()
     TITULO          = auto()
     TIPOCUENTO      = auto()
-
-    INTRODUCCION    = auto()
-    DESARROLLO      = auto()
-    CONCLUSION      = auto()
-    ABRECORCHETE    = auto()
-    CIERRACORCHETE  = auto()
-    ABREPARENTESIS  = auto()
-    CIERRAPARENTESIS= auto()
 
     NEGRITA         = auto()
     ITALICA         = auto()
