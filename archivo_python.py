@@ -4,6 +4,7 @@ from texttable import Texttable
 
 
 
+<<<<<<< HEAD
 class Naruto():
     Naruto
     Sasuke
@@ -12,6 +13,14 @@ class Naruto():
 
 
 
+=======
+class OnePiece():
+    Luffy
+    Zoro
+    Nami
+    Sanji
+=======
+>>>>>>> 68de19badca6dae4e13e44d6e61ee1e67f4b684d
 class Animalitos():
     spider
     bat
