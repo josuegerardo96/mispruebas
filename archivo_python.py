@@ -4,6 +4,14 @@ from texttable import Texttable
 
 
 
+class Comics():
+    Superman
+    Batman
+    El hombre araña
+    iron man
+
+
+
 
 
 class TipoComponente(Enum):
