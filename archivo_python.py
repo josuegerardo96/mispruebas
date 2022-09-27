@@ -3,7 +3,6 @@ import re                   # Para expresiones regulares
 from texttable import Texttable
 
 
-<<<<<<< HEAD
 
 
 class pruebas_rendimiento:
@@ -13,7 +12,6 @@ class pruebas_rendimiento:
     print("ajaaaaaa")
 
 
-=======
 class TipoComponente(Enum):
     COMENTARIO      = auto()
     TEXTO           = auto()
@@ -56,25 +54,6 @@ class TipoComponente(Enum):
 
     FINCUENTO       = auto()
     ERROR           = auto()
->>>>>>> 000e7e0767698c6cb5ec2e15f24c7e88f8092015
-
-
-
-
-class ComponenteLexico:
-    
-    tipo : TipoComponente
-    texto: str
-    linea: str
-
-    def __init__(self, tipo_nuevo: TipoComponente, texto_nuevo: str, linea_en_codigo: str):
-        self.tipo = tipo_nuevo
-        self.texto = texto_nuevo
-        self.linea = linea_en_codigo
-
-    def __str__(self):
-        resultado = resultado = f'{self.tipo:30} {self.texto} {self.linea}'
-        return resultado
 
 
 
