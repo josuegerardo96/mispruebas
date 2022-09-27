@@ -130,36 +130,4 @@ class Explorador:
         print(tt.draw())
 
 
-
-    def procesar_linea(self,linea,n_linea):
-
-        lineAlInicio = linea
-
-        componentes = []
-
-        while(linea != ""):
-            
-            for tipo_componente, regex in self.descriptores_componentes:
-
-                respuesta = re.match(regex,linea)
-
-                if respuesta is not None:
-
-                    if tipo_componente is not TipoComponente.COMENTARIO and tipo_componente is not TipoComponente.ESPACIOS:
-                        nuevo_componente = ComponenteLexico(tipo_componente, respuesta.group(), str(n_linea))
-                        componentes.append(nuevo_componente)
-                
-                    if respuesta.end == 0:
-                        linea = ""
-                    else:
-                        linea = linea[respuesta.end():]
-                    break
-
-            if lineAlInicio == linea:
-                componente_error = ComponenteLexico(TipoComponente.ERROR, linea, str(n_linea))
-                componentes.append(componente_error)
-                break
-
-            lineAlInicio = linea
-
-        return componentes
+ME GUSTAAAAAAA EL PESCADO
